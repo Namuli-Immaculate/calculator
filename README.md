@@ -15,14 +15,12 @@
 let year= parseInt(prompt('Enter your birth year'));
 let age=(2019-year);
 if(age<18){
-    console.log('You are under age')
-}else if(age>18 && age<35)
+    console.log('You are a minor')
+}else if(age>18 && age<36)
 {
     console.log('You are a youth')
-}else if(age>35){
-    console.log('You are too old')
 }else{
-    console.log('Invalid year')
+    console.log('You are an elder')
 }
     </script> 
 </body>
